@@ -110,3 +110,5 @@ print_report
 fi
 # Exit with 0 (healthy) or 1 (alerts triggered). This enables scripting / cron usage.
 exit "${HEALTH_STATUS:-0}"
+
+
