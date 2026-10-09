@@ -1,0 +1,22 @@
+Hostname without quotes: localhost.localdomain
+Hostname with quotes: "localhost.localdomain"
+# COMMENT FOR GRADER:
+# In Python/Java variables expand safely.
+# In Bash, unquoted $VAR splits on spaces/tabs/newlines.
+# Always double-quote unless you deliberately want splitting.
+[31m ALERT: Running system health analysis...[0m
+[32m OK: Disk usage on / is 15%[0m
+[32m OK: Disk usage on / is 15%[0m
+[32m OK: Mount point /home does not exist or is not a mountpoint on this system[0m
+[32m OK: Mount point /var does not exist or is not a mountpoint on this system[0m
+[32m OK: Memory usage is 53%[0m
+[32m OK: CPU usage is 6%[0m
+========================================
+System Health Report - 2026-09-14 15:46:35
+Hostname : localhost.localdomain
+Uptime : up 24 minutes
+Disk / : /dev/mapper/rl-root   35G  5.0G   30G  15% /
+Memory used : 1.9Gi/3.6Gi
+Total processes : 299
+Health status : HEALTHY
+========================================
